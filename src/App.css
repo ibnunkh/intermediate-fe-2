@@ -1,0 +1,483 @@
+
+.heroImage {
+  width: 1200px;
+  height: 400px;
+  padding: 82px 140px 64px 140px;
+  gap: 24px;
+  margin: 64px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 80%), rgba(0, 0, 0, 80%)), url('./assets/images/background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.heroText {
+  width: 920px;
+  height: 215px;
+  gap: 12px;
+}
+
+.heroText h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52.8px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.heroText p {
+  font-family: "DM Sans", serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #fff;
+}
+
+.heroImage button {
+  width: 369px;
+  height: 42px;
+  padding: 10px 26px;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #3ECF4C;
+}
+
+.heroImage span {
+  font-family: "DM Sans", serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+.title-section {
+  width: 623px;
+  height: 67px;
+  gap: 10px;
+}
+
+.title-section h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 35.2px;
+  letter-spacing: 0;
+  color: #222325;
+  margin-bottom: 10px;
+}
+
+.title-section span {
+  font-family: "DM Sans", serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: #333333AD;
+}
+
+.tab {
+  display: flex;
+  margin-bottom: 20px;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.tab ul {
+  display: flex;
+}
+
+.tab ul li {
+  margin-right: 30px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.active-navbar {
+  border-bottom: 2px solid #f64920;
+}
+
+.active-navbar #semuaKelas {
+  color: #f64920;
+}
+
+.tab ul li a {
+  text-decoration: none;
+  color: #333333AD;
+}
+
+.card-frame {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  gap: 24px;
+}
+
+.card {
+  border: 1px solid #3A35411F;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #FFFFFF;
+  width: 330px;
+}
+
+.card-wrapper {
+  margin: 10px;
+}
+
+.card-image {
+  margin: 0 auto;
+  width: 310px;
+  height: 193px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.title-card {
+  margin: 5px 0 10px 0;
+}
+
+.title-card h6 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.title-card p {
+  margin-top: -10px;
+  display: -webkit-box; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* -webkit-line-clamp: 2; */
+  color:#333333AD !important;
+  font-size: 16px;
+}
+
+.mentor-card {
+  display: flex;
+  justify-content: row;
+  max-height: 42px;
+  font-weight: normal;
+}
+
+.mentor-card img {
+  width: 40px;
+  height: 40px;
+}
+
+.mentor-card p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.title-mentor-name {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  color: #222325;
+  font-size: 16px;
+}
+
+.title-mentor-experience {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  color: #333333AD;
+  font-size: 14px;
+}
+
+.rating-and-price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: normal;
+  font-size: 14px;
+  color: #333333AD;
+}
+
+.rating-and-price .price:nth-child(3) {
+  margin-left: auto;
+}
+
+.rating {
+  text-decoration: underline;
+}
+
+.checked {
+  color: #FCE91B;
+}
+
+.nonCheck {
+  color: #3A35411F;
+}
+
+h4 {
+  font-family: 'Poppins';
+  width: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  letter-spacing: 0;
+  color: #3ECF4C;
+}
+
+.banner {
+  width: 1200px;
+  height: 400px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-image: linear-gradient(rgba(0, 0, 0, 80%), rgba(0, 0, 0, 80%)), url('./assets/images/banner.jpeg');
+}
+
+.banner .cta {
+  width: 525px;
+  height: 216px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.banner .cta span {
+  font-family: "DM Sans", serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.2px;
+  letter-spacing: 0.2px;
+  color: #C1C2C4;
+}
+
+.banner .cta .text h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 35.2px;
+  color: #fff;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.banner .cta .text .desc {
+  font-family: "DM Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: #F4F5FA;
+}
+
+.banner .cta .button-wrapper-cta {
+  width: 525px;
+  height: 58px;
+  padding: 8px 8px 8px 32px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.banner .cta .button-wrapper-cta #email {
+  width: 333px;
+  height: 22px;
+  font-family: "DM Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  border: none;
+  color: #333333AD;
+}
+
+.banner .cta .button-wrapper-cta .button-cta {
+  width: 132px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  background-color: #FFBD3A;
+  font-family: "DM Sans", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.footerContainer {
+  width: 1440px;
+  height: 427px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 120px;
+  margin-top: 32px; 
+  background-color: #fff;
+}
+
+.footerContainer .footer-content {
+  width: 1200px;
+  height: 199px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerContainer .about {
+  width: 352px;
+  height: 190px;
+  gap: 16px;
+}
+
+.footerContainer .about .footer-logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.footerContainer .about .footer-text {
+  width: 352px;
+  height: 118px;
+  gap: 12px;
+}
+
+.footerContainer .about .footer-text .text-head {
+  font-family: "DM Sans", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.2px;
+  letter-spacing: 0.2px;
+  color: #222325;
+  margin-bottom: 12px;
+}
+
+.footerContainer .about .footer-text .text-address {
+  font-family: "DM Sans", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: #222325;
+  margin-bottom: 12px;
+}
+
+.footerContainer .about .footer-text .text-phone {
+  font-family: "DM Sans", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: #222325;
+}
+
+.footerContainer .about-2 {
+  display: flex;
+  width: 485px;
+  height: 199px;
+  gap: 48px;
+  margin-right: 0;
+}
+
+.footerContainer .about-2 .about-title {
+  font-family: "DM Sans", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: #222325;
+  margin-bottom: 15px;
+}
+
+.footerContainer .about-2 .about-list {
+  font-family: "DM Sans", serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: #333333AD;
+}
+
+.footerContainer .about-2 .list {
+  margin-bottom: 15px;
+}
+
+.footerContainer .about-2 .category {
+  width: 150px;
+  height: 199px;
+}
+
+.footerContainer .about-2 .company {
+  width: 148px;
+  height: 199px;
+}
+
+.footerContainer .about-2 .community {
+  width: 91px;
+  height: 94px;
+}
+
+.copyright-group {
+  width: 1200px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright-group .copyright {
+  font-family: "DM Sans", serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+  color: #333333AD;
+}
+
+.copyright-group .social-media {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 35px;
+  gap: 15px; 
+}
+
+.copyright-group .social-media .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border: 3px solid #3A35411F;
+  border-radius: 100%;
+}
+
+.copyright-group .social-media .icon img {
+  width: 20px;
+  height: 20px;
+}
